@@ -1,4 +1,4 @@
-# Maintainer : Fenner Macrae <fmacrae.dev@gmail.com>
+# Maintainer : Fenner Macrae <fmacrae.dev at gmail dot com>
 
 _pkgname=flashfocus
 pkgname=$_pkgname-git
