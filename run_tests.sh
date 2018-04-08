@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-pytest -s --failed-first
+pytest -s --failed-first "$@"
