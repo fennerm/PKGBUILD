@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-pytest -s --failed-first "$@"
+if [[ $# -eq 0 ]]; then
+    pytest -s --failed-first
+else
+    pytest -s --failed-first --cmdopt "$@"
+fi
